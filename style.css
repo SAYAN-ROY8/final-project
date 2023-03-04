@@ -10,63 +10,63 @@ body {
 }
 
 .nav-container {
+ display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.nav-start { color: #fff;
     display: flex;
     flex-direction: row;
-    background-color: black;
-    color: white;
-
-    width: 1728px;
-    height: 51px;
-    left: 0px;
-    top: 0px;
-
+    justify-content: center;
+    align-items: center;
+   
 
 }
-
-.nav-start {
-    font-family: 'Ruda';
-    font-style: normal;
-    font-weight: 700;
-    padding: 13px 49px;
-    border: 1px solid #000000;
-
-}
-
-.nav-middle>span {
-    padding: 13px 49px;
-    border: 1px solid #000000;
+.nav-middle span{ font-family: 'Ruda';
+font-size:12px ;
 }
 
 
-.nav-middle {
+
+.nav-middle { color: #fff;
     display: flex;
     flex-direction: row;
-    padding: 3px 21px;
-    font-family: 'Ruda';
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 
 
 }
 
 .nav-end {
+    
     display: flex;
-
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
 
+
+.main-content { height: 1984px;
+    width:auto;
+    
+   
+    background-image: url("./assets/pizza1.png");
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
 
 
 .main-container {
     box-sizing: border-box;
 
     position: relative;
-    width: 1786px;
+   width: 1786px;
     height: 1017px;
     left: -23px;
-    top: 100px;
+    top: 100px; w
 }
 
 .text1 {
@@ -137,7 +137,7 @@ body {
 
 
 
-.about-section{margin-top: 33px;}
+.about-section{margin-top: -1140px;}
 
 .about-section1 {
     color: #fff;
@@ -196,7 +196,7 @@ body {
 
 
 .menu-section{
-    margin-top: -98px;;
+    margin-top: -153px;;
 }
 
 
@@ -230,7 +230,7 @@ body {
     letter-spacing: 0.09em;
     padding-inline: 137px;
     color: #FFFFFF;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 
 }
 
@@ -285,7 +285,7 @@ body {
 
 
 .find-section{
-    margin-top: -40px;
+    margin-top: -90px;
 }
 
 
@@ -443,3 +443,24 @@ body {
     margin-right: 15px;
 
 } 
+
+
+
+
+
+
+@media (max-width: 480px){
+
+    .nav
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px){}
+
+
+@media (min-width: 768px) and (max-width: 1024px){}
+
+
+@media (min-width: 1025px) and (max-width: 1280px)
